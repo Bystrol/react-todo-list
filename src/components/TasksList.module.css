@@ -1,0 +1,12 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 40%;
+  min-height: 5vh;
+  background-color: #fff;
+  margin: 5vh 0;
+  border-radius: 14px;
+  overflow: hidden;
+}

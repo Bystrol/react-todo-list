@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 7vh;
+  background-color: white;
+  border-bottom: 1px solid rgb(74, 62, 62);
+  margin: 0 1vw;
+}
+
+.item h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.item p {
+  color: black;
+  font-size: 0.8rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.item:last-child {
+  border: none;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 85%;
+  overflow: hidden;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right button {
+  background-color: #fff;
+  padding: 4px 6px;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+  border-radius: 6px;
+}
+
+.right button:hover {
+  border: 1px solid rgb(74, 62, 62);
+}

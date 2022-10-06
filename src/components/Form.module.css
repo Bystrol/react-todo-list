@@ -1,0 +1,55 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 30vh;
+  background-color: #fff;
+  margin-top: 5vh;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart * {
+  margin: 0 1vw 0 1vw;
+}
+
+.cart p {
+  font-size: 0.8rem;
+  margin: 0 auto;
+  color: rgb(127, 39, 140);
+}
+
+.cart input {
+  height: 3.5vh;
+  padding-left: 0.5vw;
+  border: 1px solid rgb(74, 62, 62);
+}
+
+.cart button {
+  align-self: center;
+  width: 20%;
+  height: 5vh;
+  margin: 1vh 1vw;
+  border: none;
+  background-color: rgb(127, 39, 140);
+  color: white;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.cart button:hover {
+  cursor: pointer;
+  border: 1px solid rgb(127, 39, 140);
+  background-color: white;
+  color: rgb(127, 39, 140);
+}
+
+.cart .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
