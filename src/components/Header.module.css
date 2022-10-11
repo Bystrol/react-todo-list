@@ -11,7 +11,7 @@
 
 .header h1 {
   margin-left: 5vw;
-  font-size: 2rem;
+  font-size: 4vh;
 }
 
 .header button {
@@ -19,7 +19,7 @@
   border: 1px solid white;
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2vh;
   margin-right: 5vw;
   border-radius: 8px;
   height: 4vh;
