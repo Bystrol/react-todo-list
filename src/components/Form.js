@@ -72,7 +72,6 @@ const Form = () => {
       <input
         id="title"
         type="text"
-        placeholder="Enter the title here..."
         value={titleValue}
         onChange={titleChangeHandler}
         onBlur={titleTouchedHandler}
@@ -81,7 +80,6 @@ const Form = () => {
       <input
         id="desc"
         type="text"
-        placeholder="Enter the description here..."
         value={descValue}
         onChange={descChangeHandler}
         onBlur={descTouchedHandler}
