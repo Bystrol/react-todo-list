@@ -13,7 +13,9 @@ export const sendData = async (items) => {
     if (!response.ok) {
       throw new Error();
     }
-  } catch (error) {}
+  } catch (error) {
+    alert("Could not send the data! Check your API URL.");
+  }
 };
 
 export const fetchData = () => {
@@ -30,6 +32,8 @@ export const fetchData = () => {
       const data = await response.json();
 
       dispatch(formActions.replaceTasks(data || []));
-    } catch (error) {}
+    } catch (error) {
+      alert("Could not fetch the data! Check your API URL.");
+    }
   };
 };
